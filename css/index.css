@@ -173,31 +173,13 @@ p {
 img {
   max-width: 100%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-}
-.header-content {
-  width: 900px;
-  border-top: 2px dashed #C0C0C0;
-  margin: 0 auto;
-}
-.header-content h2 {
-  margin: 20px 0 0 50px;
-}
-.header-content p {
-  max-width: 800px;
-  margin: 0 auto 20px auto;
-  padding-bottom: 20px;
-  border-bottom: 2px dashed #C0C0C0;
-}
-#main-img {
-  max-width: 800px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
 }
 button {
   font-size: 2rem;
@@ -208,19 +190,17 @@ button {
   margin: 0 0 10% 2%;
   background-color: #17A2B8;
 }
-header {
+nav {
   margin: 25px auto;
   max-width: 800px;
-}
-header nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-header nav h1 {
+nav h1 {
   margin-right: 318px;
 }
-header nav a {
+nav a {
   color: black;
   margin: 0 20px 0 20px;
   font-size: 1.6rem;
@@ -238,6 +218,21 @@ header nav a {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home header {
+  width: 900px;
+  border-top: 2px dashed #C0C0C0;
+  margin: 0 auto;
+}
+.home header img {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.home header p {
+  max-width: 800px;
+  padding-bottom: 20px;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .home .content-section {
   margin: 30px 0;
