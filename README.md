@@ -9,7 +9,7 @@ Fun Bus is a travel agency looking for some help on their website.  They want a 
 - [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
@@ -26,7 +26,7 @@ Follow these steps for completing your project.
 
 ## Task 3: Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank.  In order for you to see the styles for this project you must import them in a certain order.  That order is as follows:
+* [X] Navigate to your `index.less` file. Notice the file is blank.  In order for you to see the styles for this project you must import them in a certain order.  That order is as follows:
 
 1. `variables.less`
 2. `mixins.less`
